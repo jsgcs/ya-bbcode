@@ -174,7 +174,7 @@ const yabbcode = function(config = {}){
 	};
 
 	this.regex = {
-		tags: /(\[[^\]^\s]{1,}\])/g,
+		tags: /(\[[^\]]{1,}\])/g,
 		newline: /(?:\r\n|\r|\n)/g,
 		placeholders: /\[TAG-[1-9]{1,}\]/g
 	};
